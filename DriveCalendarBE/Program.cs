@@ -69,6 +69,12 @@ builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 builder.Services.AddScoped<IUsersService, UsersService>();
 builder.Services.AddScoped<IDriveStatusRepository, DriveStatusRepository>();
 builder.Services.AddScoped<IDriveStatusService, DriveStatusService>();
+builder.Services.AddScoped<IStudentDriveStatusRepository, StudentDriveStatusRepository>();
+builder.Services.AddScoped<IStudentDriveStatusService, StudentDriveStatusService>();
+builder.Services.AddScoped<IStudentDriveRepository, StudentDriveRepository>();
+builder.Services.AddScoped<IStudentDriveService, StudentDriveService>();
+builder.Services.AddScoped<IDashboardRepository, DashboardRepository>();
+builder.Services.AddScoped<IDashboardService, DashboardService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -9,5 +9,6 @@ namespace DriveCalendarBE.Entities
         public int StudentId { get; set; }
         public int DriveId { get; set; }
         public int StatusId { get; set; }
+        public int IsActive { get; set; }
     }
 }

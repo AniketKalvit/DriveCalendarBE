@@ -13,5 +13,7 @@ namespace DriveCalendarBE.Repository
         public DbSet<Student> Students { set; get; }
         public DbSet<Users> Users { get; set; }
         public DbSet<DriveStatus> DriveStatus { get; set; }
+        public DbSet<StudentDriveStatus> StudentDriveStatus { get; set; }
+        public DbSet<StudentDrive> StudentDrives { get; set; }
     }
 }
